@@ -1,0 +1,84 @@
+@media (max-width: 480px) {
+  .intro h3 {
+    padding: 50px 20px 20px;
+  }
+  .intro p {
+    padding: 0px 20px 40px;
+  }
+  .mainBox {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-bottom: 120px;
+  }
+  .mainTopic {
+    width: 340px;
+    height: 220px;
+  }
+  .topbanner {
+    height: 211px;
+    background-size: cover;
+  }
+  .tab button {
+    font-size: 10pt;
+    padding: 14px 8px;
+  }
+  .tab button.homeIcon {
+    width: 90px;
+  }
+  .topic_content .topic_top h3 {
+    font-size: 14pt;
+  }
+  .topic_content h4 {
+    font-size: 14pt;
+  }
+  .topic_content {
+    width: 85%;
+  }
+  .topic_top {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .layout {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .layout img {
+    width: 95%;
+    margin-top: 10px;
+  }
+  .doctor {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .doctor_intro {
+    width: 90%;
+  }
+  .doctor_intro h2 {
+    font-weight: bold;
+    font-size: 16pt;
+  }
+  .doctor_intro .doctor h3 {
+    font-size: 14pt;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .footer .peopleNumber {
+    left: -20px;
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+  .footer .webcode {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+    right: 0px;
+  }
+}
+/*# sourceMappingURL=rwb.css.map */

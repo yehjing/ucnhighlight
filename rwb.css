@@ -51,6 +51,9 @@
   .layout img {
     margin-top: 10px;
   }
+  .layout2 img {
+    height: 360px;
+  }
   .doctor {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;

@@ -15,10 +15,10 @@
 	<div id="sp" class="topbanner"></div>
 
 	<div class="tab">
-		<button class="tablinks homeIcon" onclick="openCity(event, 'Home');home();"  id="defaultOpen"></button>
-		<button class="tablinks" onclick="openCity(event, 'topic1');home();">UCN Overview</button>
-		<button class="tablinks" onclick="openCity(event, 'topic2');topic2();">sPN Practice</button>
-		<button class="tablinks" onclick="openCity(event, 'topic3');topic3();">Micronutrients</button>
+		<button class="tablinks homeIcon" onclick="openCity(event, 'Home');home();gotop();"  ></button>
+		<button class="tablinks" onclick="openCity(event, 'topic1');home();gotop();">UCN Overview</button>
+		<button class="tablinks" onclick="openCity(event, 'topic2');topic2();gotop();"id="defaultOpen">sPN Practice</button>
+		<button class="tablinks" onclick="openCity(event, 'topic3');topic3();gotop();">Micronutrients</button>
 		
 	</div>
 	
@@ -32,17 +32,17 @@
 			<div class="mainTopic">
 				<div class="mainTopicTitle topic1">UCN Overview</div>
 				<p>United for Clinical Nutrition (UCN) – Multinational Observational Study in Asia</p>
-				<button class="tablinks" onclick="openCity(event, 'topic1');home();">ENTER</button>
+				<button class="tablinks" onclick="openCity(event, 'topic1');home();gotop();">ENTER</button>
 			</div>
 			<div class="mainTopic">
 				<div class="mainTopicTitle topic2">sPN Practice</div>
 				<p>Fighting Caloric and Protein Deficit with Supplemental PN</p>
-				<button class="tablinks" onclick="openCity(event, 'topic2');topic2();">ENTER</button>
+				<button class="tablinks" onclick="openCity(event, 'topic2');topic2();gotop();">ENTER</button>
 			</div>
 			<div class="mainTopic">
 				<div class="mainTopicTitle topic3">Micronutrients</div>
 				<p>Zinc – The Crucial Trace Element in Surgery And Critical Illness</p>
-				<button class="tablinks" onclick="openCity(event, 'topic3');topic3();">ENTER</button>
+				<button class="tablinks" onclick="openCity(event, 'topic3');topic3();gotop();">ENTER</button>
 			</div>
 		</div>
 		
@@ -133,8 +133,11 @@
 			<h5>富含Omega-3脂肪酸的靜脈營養，是否有不同？</h5>
 			<p>義大利 Pradelli 教授在 2019 年發表針對所有住院患者，蒐集 49 篇 RCT 並進行 meta-analysis 後發現，相較於傳統、不含 Omega-3 脂肪酸的靜脈營養，使用富含 Omega-3 脂肪酸靜脈營養可顯著<mark>降低 40% 院內感染機率及 56% 敗血症發生率</mark>，因此 <mark>ICU 和整體住院時間皆分別減少了約 2 天</mark><sup>18</sup>，進而改善感染、住院等<mark>醫療成本支出</mark><sup>19</sup>。2017 年ESPEN對於手術患者的臨床指引中提到：當術後患者無法以 EN 達到足量營養時，應考慮使用<mark>含 Omega-3 脂肪酸的PN</mark> (grade B)<sup>20</sup>。</p>
 			<br><br>
-			<div class="overflow">
-				<img src="./img/topic2_img1.png" alt="" style="flex: 1; width: 996px; margin: auto;position: relative;">
+			<div class="layout">
+				<img src="./img/topic2_img1.png" alt="">
+				<div class="overflow">
+					<img src="./img/topic2_img2.png" alt="" style="flex: 1; width: 727px; margin: auto;position: relative;">
+				</div>
 			</div>
 		</div>
 		<div class="doctor_intro">
@@ -192,7 +195,7 @@
 			<p>對住院病患營養缺乏的研究<sup>6</sup>中指出，重症患者因為疾病、飲食攝取不足等因素，容易缺乏微量營養素。建議：對於使用 PN 的重症患者，應<mark>每日給予綜合微量元素以及單方鋅</mark>，如下表<sup>6</sup>。</p>
 			<br><br>
 			<div class="overflow">
-				<img src="./img/topic3_img1.png" alt="" style="flex: 1; width: 996px; margin: auto;position: relative;">
+				<img src="./img/topic3_img1.png" alt="" style="flex: 1; width: 780px; margin: auto;position: relative;">
 			</div>
 			<p>*高風險狀況包括<mark>休克(心因性、敗血性、低血容性)、胰臟炎、嚴重肝病、重大創傷、器官移植和營養不良</mark></p>
 			<p><mark>** DRI: dietary reference intake</mark></p>

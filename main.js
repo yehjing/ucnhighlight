@@ -15,6 +15,10 @@ function openCity(evt, cityName) {
 
 
 
+function gotop(){
+	window.scroll(0,0);
+}
+
 function home() { 
   document.getElementById("sp").style.backgroundImage = "url(./img/2008FU145_top_Banner.jpg)";
 };

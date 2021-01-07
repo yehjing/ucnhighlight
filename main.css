@@ -314,6 +314,13 @@ p {
   font-size: 24pt;
 }
 
+.overflow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+}
+
 .topic_content {
   position: relative;
   width: 60%;
@@ -389,12 +396,13 @@ p {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .layout .font_left {
   padding-right: 20px;
+}
+
+.layout img {
+  height: 400px;
 }
 /*# sourceMappingURL=main.css.map */
